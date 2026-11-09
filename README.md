@@ -12,6 +12,8 @@ Add `https://github.com/fening/zuno-ios-sdk` in Xcode's Package Dependencies, ch
 
 Add the `ZunoSDK` product to your target, then `import ZunoSDK`.
 
+With CocoaPods: `pod 'ZunoSDK', '~> 0.1'`.
+
 ## Configure
 
 Tenant API keys must remain on your backend. Your backend authenticates app users, enforces order ownership and proxies Zuno's paths below `/api`, attaching its tenant API key. The SDK authorizer attaches your app user's own session:
